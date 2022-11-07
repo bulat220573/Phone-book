@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="wrap">
+        <div class="main">
+          <header>
+            <div class="logo">
+
+            </div>
+            <input id="search" type="search" name="" value="">
+          </header>
+          <section class="contacts">
+          </section>
+          <footer>
+            <button class="btn addContact" id="showForm" type="button" name="button">Добавить</button>
+          </footer>
+        </div>
+        <div class="add">
+          <header>
+            <div class="logo">
+
+            </div>
+            <h2>Add Contact</h2>
+          </header>
+          <section class="infoContact">
+<label for="nameContact">Name</label>
+<input class="form-control" id="nameContact" type="text" name="" value="">
+<label for="phoneContact">Phone</label>
+<input class="form-control tel" id="phoneContact" type="text" name="" value="">
+<input type="checkbox" class="form-check-input" id="checkFavorites">
+<label class="form-check-label" for="checkFavorites">Favorites</label>
+<div class="alert alert-danger uncorrect" role="alert">
+  Некорректные данные проверьте правильность ввода!
+</div>
+
+          </section>
+          <footer>
+            <button class="btn addContact" id="addFromBtn" type="button" name="button">Создать</button>
+          </footer>
+        </div>
+
+
+    </div>
+
+    <script type="text/javascript" src="./script.js">
+<script type="text/javascript" src="./js-inputmask.js">
+
+    </script>
+  </body>
+</html>
